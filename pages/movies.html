@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link
+      rel="shortcut icon"
+      href="../asset/Moviestack_favicon.png"
+      type="image/x-icon"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>MovieStack!</title>
+  </head>
+  <body class="bg-gray-900">
+    <header
+      class="border-4 border-gray-500 border-solid flex justify-between items-center bg-gray-700"
+    >
+      <div class="flex w-80 gap-5 pl-5">
+        <img class="w-24" src="../asset/Moviestack_isotipo.png" alt="isotipo" />
+        <img
+          class="w-64 h-32 -ml-16 -mt-3"
+          src="../asset/Moviestack_logotipo2.png"
+          alt="moviestack"
+        />
+      </div>
+      <nav class="flex gap-5 h-10 mr-14">
+        <a class="p-2 text-white text-xl" href="../index.html">HOME</a>
+        <a
+          class="border-2 border-gray-500 border-solid px-2 pt-1 font-bold text-white text-xl"
+          href="../pages/movies.html"
+          >MOVIES</a
+        >
+        <a class="p-2 text-white text-xl" href="#">FAVS</a>
+      </nav>
+    </header>
+    <main>
+      <section class="">
+        <h1 class="text-white text-7xl bg-gray-700 w-96 m-auto text-center py-4 border-4 border-gray-500 my-8">Movies</h1>
+      </section>
+      <div id="contenedorMovies" class="flex flex-wrap w-2/4 m-auto gap-3 my-16">
+      </div>
+    </main>
+    <footer
+      class="border-4 border-gray-500 bg-gray-700 text-white text-center content-center h-12"
+    >
+      <span>William Jose Ocanto Hernandez. MindHub-Cohort 55</span>
+    </footer>
+    <script src="../Datos/data.js"></script>
+    <script src="../index.js"></script>
+  </body>
+</html>
